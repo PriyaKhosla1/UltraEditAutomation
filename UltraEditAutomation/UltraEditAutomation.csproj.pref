@@ -1,0 +1,10 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="UltraEditAutomation.rxtst" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="UltraEditAutomation.rxtst" />
+  </Array>
+  <Properties name="projectSavedData" />
+</Properties>
