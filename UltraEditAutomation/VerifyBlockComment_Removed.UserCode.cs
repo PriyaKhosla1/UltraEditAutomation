@@ -80,19 +80,19 @@ namespace UltraEditAutomation
                     if (line.StartsWith("//") || line.StartsWith("/*") || line.StartsWith("#") || line.EndsWith("*/"))
                     {
                         // Line is commented, report failure
-                        Report.Failure($"The line at line {i + 1} ('{line}') is commented.");
+                        Report.Failure("The line at line {i + 1} ('{line}') is commented.");
                         allUncommented = false;
                     }
                 }
 
                 if (allUncommented)
                 {
-                    Report.Success($"The block from line {startLine} to line {endLine} is NOT fully commented.");
+                    Report.Success("The block from line {startLine} to line {endLine} is NOT fully commented.");
                 }
                 else
                 {
                     // If any line is commented, report error and throw an exception
-                    Report.Error($"The block from line {startLine} to line {endLine} is commented. The test will fail.");
+                    Report.Error("The block from line {startLine} to line {endLine} is commented. The test will fail.");
                     throw new RanorexException("The block is commented, test case failed.");
                 }
             }

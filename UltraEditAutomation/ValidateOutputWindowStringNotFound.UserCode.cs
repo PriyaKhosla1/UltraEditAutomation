@@ -56,7 +56,7 @@ namespace UltraEditAutomation
 		    {
 		        if (!outputText.Contains(file))
 		        {
-		            Report.Error($"File not found in output: {file}");
+		            Report.Error("File not found in output: {file}");
 		            allFilesVerified = false;
 		        }
 		    }

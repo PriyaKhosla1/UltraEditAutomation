@@ -70,7 +70,7 @@ namespace UltraEditAutomation
                 string[] lines = editorText.Split(new[] { "\r\n", "\r", "\n" }, StringSplitOptions.None);
 
                 // Log total number of lines
-                Report.Info($"Total number of lines in editor: {lines.Length}");
+                Report.Info("Total number of lines in editor: {lines.Length}");
 
                 // Ensure the specified lines are within the range of available lines
                 if (lines.Length < endLine)
@@ -102,17 +102,17 @@ namespace UltraEditAutomation
                     if (!line.StartsWith("//") && !insideBlockComment && !line.StartsWith("/*") && !line.EndsWith("*/"))
                     {
                         isBlockCommented = false;
-                        Report.Failure($"The line at line {i + 1} is not commented: '{line}'");
+                        Report.Failure("The line at line {i + 1} is not commented: '{line}'");
                     }
                 }
 
                 if (isBlockCommented)
                 {
-                    Report.Success($"The block from line {startLine} to line {endLine} is fully commented.");
+                    Report.Success("The block from line {startLine} to line {endLine} is fully commented.");
                 }
                 else
                 {
-                    Report.Error($"The block from line {startLine} to line {endLine} is not fully commented. The test case has failed.");
+                    Report.Error("The block from line {startLine} to line {endLine} is not fully commented. The test case has failed.");
                     throw new RanorexException("The block is not fully commented, test case failed.");
                 }
             }

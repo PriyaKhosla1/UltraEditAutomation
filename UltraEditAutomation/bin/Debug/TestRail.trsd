@@ -1,0 +1,478 @@
+{
+  "RanorexSuites": [
+    {
+      "Id": "50896d4d-a4f9-43bc-a540-ad33aedac8a6/005356a6-039a-4ef6-b808-9e6d404588ca",
+      "Pid": "40bcda6e-258a-4b63-93fe-a9bf41a591bd/50896d4d-a4f9-43bc-a540-ad33aedac8a6",
+      "Name": "UltraEditAutomation"
+    }
+  ],
+  "CaseFields": [],
+  "ResultFields": [],
+  "TestRailProject": {
+    "Id": "P2",
+    "Pid": null,
+    "Name": "UltraEditAutomation",
+    "BaseUri": "https://testranorexintegration10.testrail.io/",
+    "ProjectSuiteMode": 3,
+    "ProjectCustomizations": {
+      "TemplateId": 1,
+      "CaseTypeId": 3
+    }
+  },
+  "Projects": [
+    {
+      "Rx": {
+        "Id": "40bcda6e-258a-4b63-93fe-a9bf41a591bd/50896d4d-a4f9-43bc-a540-ad33aedac8a6",
+        "Pid": "40bcda6e-258a-4b63-93fe-a9bf41a591bd/40bcda6e-258a-4b63-93fe-a9bf41a591bd",
+        "Name": "UltraEditAutomation"
+      },
+      "Tr": null
+    }
+  ],
+  "TestSuites": [
+    {
+      "Rx": {
+        "Id": "50896d4d-a4f9-43bc-a540-ad33aedac8a6/005356a6-039a-4ef6-b808-9e6d404588ca",
+        "Pid": "40bcda6e-258a-4b63-93fe-a9bf41a591bd/50896d4d-a4f9-43bc-a540-ad33aedac8a6",
+        "Name": "UltraEditAutomation"
+      },
+      "Tr": {
+        "Id": "S2",
+        "Pid": "P2",
+        "Name": "UltraEditAutomation"
+      }
+    }
+  ],
+  "Sections": [
+    {
+      "Rx": null,
+      "Tr": {
+        "Id": "G1",
+        "Pid": "S2",
+        "Name": "UltraEditAutomation"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "005356a6-039a-4ef6-b808-9e6d404588ca/f7cac758-3f47-42bb-b51a-ffdca956e7bb",
+        "Pid": "50896d4d-a4f9-43bc-a540-ad33aedac8a6/005356a6-039a-4ef6-b808-9e6d404588ca",
+        "Name": "Editing"
+      },
+      "Tr": {
+        "Id": "G2",
+        "Pid": "S2",
+        "Name": "Editing"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "005356a6-039a-4ef6-b808-9e6d404588ca/e577b9c9-fe0b-4f30-9bba-5af1c1091925",
+        "Pid": "50896d4d-a4f9-43bc-a540-ad33aedac8a6/005356a6-039a-4ef6-b808-9e6d404588ca",
+        "Name": "SearchTests"
+      },
+      "Tr": {
+        "Id": "G3",
+        "Pid": "S2",
+        "Name": "SearchTests"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "005356a6-039a-4ef6-b808-9e6d404588ca/c065cfe3-4560-42d3-8fce-da928e47a312",
+        "Pid": "50896d4d-a4f9-43bc-a540-ad33aedac8a6/005356a6-039a-4ef6-b808-9e6d404588ca",
+        "Name": "FileHandling"
+      },
+      "Tr": {
+        "Id": "G4",
+        "Pid": "S2",
+        "Name": "FileHandling"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "005356a6-039a-4ef6-b808-9e6d404588ca/36246ace-cf32-41c1-9068-14520cb6817e",
+        "Pid": "005356a6-039a-4ef6-b808-9e6d404588ca/f7cac758-3f47-42bb-b51a-ffdca956e7bb",
+        "Name": "Comments_"
+      },
+      "Tr": {
+        "Id": "G5",
+        "Pid": "G2",
+        "Name": "Comments_"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "005356a6-039a-4ef6-b808-9e6d404588ca/0a8f568a-2f67-4193-a8bb-688364b3dcc3",
+        "Pid": "005356a6-039a-4ef6-b808-9e6d404588ca/e577b9c9-fe0b-4f30-9bba-5af1c1091925",
+        "Name": "FindTests"
+      },
+      "Tr": {
+        "Id": "G6",
+        "Pid": "G3",
+        "Name": "FindTests"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "005356a6-039a-4ef6-b808-9e6d404588ca/a5e9503f-93b7-45a4-a415-bfec3e74d744",
+        "Pid": "005356a6-039a-4ef6-b808-9e6d404588ca/c065cfe3-4560-42d3-8fce-da928e47a312",
+        "Name": "CodePageDetection"
+      },
+      "Tr": {
+        "Id": "G7",
+        "Pid": "G4",
+        "Name": "CodePageDetection"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "005356a6-039a-4ef6-b808-9e6d404588ca/d414a25e-05d6-4f1a-af03-249a249937ab",
+        "Pid": "005356a6-039a-4ef6-b808-9e6d404588ca/c065cfe3-4560-42d3-8fce-da928e47a312",
+        "Name": "FileConversions"
+      },
+      "Tr": {
+        "Id": "G8",
+        "Pid": "G4",
+        "Name": "FileConversions"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "005356a6-039a-4ef6-b808-9e6d404588ca/c8c99a5f-4ddd-44c8-8116-fdf2546e597c",
+        "Pid": "005356a6-039a-4ef6-b808-9e6d404588ca/36246ace-cf32-41c1-9068-14520cb6817e",
+        "Name": "Add_line_comment/Remove_line_comment"
+      },
+      "Tr": {
+        "Id": "G9",
+        "Pid": "G5",
+        "Name": "Add_line_comment/Remove_line_comment"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "005356a6-039a-4ef6-b808-9e6d404588ca/41cba9ef-1346-465b-b321-e7f75eacede7",
+        "Pid": "005356a6-039a-4ef6-b808-9e6d404588ca/36246ace-cf32-41c1-9068-14520cb6817e",
+        "Name": "Block_comment_selection/Remove_block_comment"
+      },
+      "Tr": {
+        "Id": "G10",
+        "Pid": "G5",
+        "Name": "Block_comment_selection/Remove_block_comment"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "005356a6-039a-4ef6-b808-9e6d404588ca/fecd891e-6afc-4e0c-8d6c-0d6016bf2460",
+        "Pid": "005356a6-039a-4ef6-b808-9e6d404588ca/0a8f568a-2f67-4193-a8bb-688364b3dcc3",
+        "Name": "FindInFiles"
+      },
+      "Tr": {
+        "Id": "G11",
+        "Pid": "G6",
+        "Name": "FindInFiles"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "005356a6-039a-4ef6-b808-9e6d404588ca/288e38c4-1a0f-45e7-8f11-f00eaff7b476",
+        "Pid": "005356a6-039a-4ef6-b808-9e6d404588ca/0a8f568a-2f67-4193-a8bb-688364b3dcc3",
+        "Name": "GeneralFind"
+      },
+      "Tr": {
+        "Id": "G12",
+        "Pid": "G6",
+        "Name": "GeneralFind"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "005356a6-039a-4ef6-b808-9e6d404588ca/fc7792ae-101b-4f77-9dc7-8234dd45fd6d",
+        "Pid": "005356a6-039a-4ef6-b808-9e6d404588ca/0a8f568a-2f67-4193-a8bb-688364b3dcc3",
+        "Name": "HexFind"
+      },
+      "Tr": {
+        "Id": "G13",
+        "Pid": "G6",
+        "Name": "HexFind"
+      }
+    }
+  ],
+  "Cases": [
+    {
+      "Rx": {
+        "Id": "005356a6-039a-4ef6-b808-9e6d404588ca/2ee8f293-f8ff-4063-8474-47eeef5c266c",
+        "Pid": "005356a6-039a-4ef6-b808-9e6d404588ca/a5e9503f-93b7-45a4-a415-bfec3e74d744",
+        "Name": "Thai_detection"
+      },
+      "Tr": {
+        "Id": "C1",
+        "Pid": "G7",
+        "Name": "Thai_detection"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "005356a6-039a-4ef6-b808-9e6d404588ca/4d954276-fadf-4067-880c-e42324aaf048",
+        "Pid": "005356a6-039a-4ef6-b808-9e6d404588ca/a5e9503f-93b7-45a4-a415-bfec3e74d744",
+        "Name": "Traditional_Chinese_detection"
+      },
+      "Tr": {
+        "Id": "C2",
+        "Pid": "G7",
+        "Name": "Traditional_Chinese_detection"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "005356a6-039a-4ef6-b808-9e6d404588ca/f2c61904-3c27-4eba-abd2-5d7043a193dd",
+        "Pid": "005356a6-039a-4ef6-b808-9e6d404588ca/d414a25e-05d6-4f1a-af03-249a249937ab",
+        "Name": "Use_IBM-500_standard_for_EBCDIC_conversion"
+      },
+      "Tr": {
+        "Id": "C3",
+        "Pid": "G8",
+        "Name": "Use_IBM-500_standard_for_EBCDIC_conversion"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "005356a6-039a-4ef6-b808-9e6d404588ca/5062b724-7f33-40a6-948d-13b43b53dfbb",
+        "Pid": "005356a6-039a-4ef6-b808-9e6d404588ca/d414a25e-05d6-4f1a-af03-249a249937ab",
+        "Name": "ASCII_to_EBCDIC_Conversion"
+      },
+      "Tr": {
+        "Id": "C4",
+        "Pid": "G8",
+        "Name": "ASCII_to_EBCDIC_Conversion"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "005356a6-039a-4ef6-b808-9e6d404588ca/09e588e9-7c0b-4c1d-be37-527062063223",
+        "Pid": "005356a6-039a-4ef6-b808-9e6d404588ca/d414a25e-05d6-4f1a-af03-249a249937ab",
+        "Name": "EBCDIC_to_ASCII_Conversion"
+      },
+      "Tr": {
+        "Id": "C5",
+        "Pid": "G8",
+        "Name": "EBCDIC_to_ASCII_Conversion"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "005356a6-039a-4ef6-b808-9e6d404588ca/47330cbf-3617-479a-b69d-9e21beeb1a09",
+        "Pid": "005356a6-039a-4ef6-b808-9e6d404588ca/c8c99a5f-4ddd-44c8-8116-fdf2546e597c",
+        "Name": "Add_line_comment"
+      },
+      "Tr": {
+        "Id": "C6",
+        "Pid": "G9",
+        "Name": "Add_line_comment"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "005356a6-039a-4ef6-b808-9e6d404588ca/2ef9afb2-d5c3-41db-a2ec-418331758fe3",
+        "Pid": "005356a6-039a-4ef6-b808-9e6d404588ca/c8c99a5f-4ddd-44c8-8116-fdf2546e597c",
+        "Name": "Remove_line_comment"
+      },
+      "Tr": {
+        "Id": "C7",
+        "Pid": "G9",
+        "Name": "Remove_line_comment"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "005356a6-039a-4ef6-b808-9e6d404588ca/95324b14-1cdc-45bc-8107-bfcccccf68d1",
+        "Pid": "005356a6-039a-4ef6-b808-9e6d404588ca/41cba9ef-1346-465b-b321-e7f75eacede7",
+        "Name": "Block_comment_selection"
+      },
+      "Tr": {
+        "Id": "C8",
+        "Pid": "G10",
+        "Name": "Block_comment_selection"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "005356a6-039a-4ef6-b808-9e6d404588ca/e86f5a57-0473-49f9-94fb-06c83c05d208",
+        "Pid": "005356a6-039a-4ef6-b808-9e6d404588ca/41cba9ef-1346-465b-b321-e7f75eacede7",
+        "Name": "Remove_block_comment"
+      },
+      "Tr": {
+        "Id": "C9",
+        "Pid": "G10",
+        "Name": "Remove_block_comment"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "005356a6-039a-4ef6-b808-9e6d404588ca/8d36ef99-0a92-44ef-a392-45d609d8e305",
+        "Pid": "005356a6-039a-4ef6-b808-9e6d404588ca/fecd891e-6afc-4e0c-8d6c-0d6016bf2460",
+        "Name": "FindInFiles_ContextLinesDefaultTo2"
+      },
+      "Tr": {
+        "Id": "C10",
+        "Pid": "G11",
+        "Name": "FindInFiles_ContextLinesDefaultTo2"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "005356a6-039a-4ef6-b808-9e6d404588ca/89da8f47-4a31-4eac-a84d-0b6f9ef096b7",
+        "Pid": "005356a6-039a-4ef6-b808-9e6d404588ca/fecd891e-6afc-4e0c-8d6c-0d6016bf2460",
+        "Name": "FindInFiles_FilesListed"
+      },
+      "Tr": {
+        "Id": "C11",
+        "Pid": "G11",
+        "Name": "FindInFiles_FilesListed"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "005356a6-039a-4ef6-b808-9e6d404588ca/a5a76151-deae-4daf-8803-3f99563aec60",
+        "Pid": "005356a6-039a-4ef6-b808-9e6d404588ca/fecd891e-6afc-4e0c-8d6c-0d6016bf2460",
+        "Name": "FindInFiles_OpenFiles"
+      },
+      "Tr": {
+        "Id": "C12",
+        "Pid": "G11",
+        "Name": "FindInFiles_OpenFiles"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "005356a6-039a-4ef6-b808-9e6d404588ca/b7094f2c-69ac-4452-907d-33cece29337b",
+        "Pid": "005356a6-039a-4ef6-b808-9e6d404588ca/fecd891e-6afc-4e0c-8d6c-0d6016bf2460",
+        "Name": "FindInFiles_ProjectFiles"
+      },
+      "Tr": {
+        "Id": "C13",
+        "Pid": "G11",
+        "Name": "FindInFiles_ProjectFiles"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "005356a6-039a-4ef6-b808-9e6d404588ca/1606d86e-7d8b-480a-99fd-ee4ed7561928",
+        "Pid": "005356a6-039a-4ef6-b808-9e6d404588ca/fecd891e-6afc-4e0c-8d6c-0d6016bf2460",
+        "Name": "FindInFiles_ResultsToEditWindow"
+      },
+      "Tr": {
+        "Id": "C14",
+        "Pid": "G11",
+        "Name": "FindInFiles_ResultsToEditWindow"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "005356a6-039a-4ef6-b808-9e6d404588ca/e9fcb93a-bb76-4375-971e-33abc80a84f9",
+        "Pid": "005356a6-039a-4ef6-b808-9e6d404588ca/fecd891e-6afc-4e0c-8d6c-0d6016bf2460",
+        "Name": "FindInFiles_StringNotFoundInFiles"
+      },
+      "Tr": {
+        "Id": "C15",
+        "Pid": "G11",
+        "Name": "FindInFiles_StringNotFoundInFiles"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "005356a6-039a-4ef6-b808-9e6d404588ca/104b464e-eb28-47a8-abe4-99b016324d3b",
+        "Pid": "005356a6-039a-4ef6-b808-9e6d404588ca/288e38c4-1a0f-45e7-8f11-f00eaff7b476",
+        "Name": "SimpleFind-DOSFile"
+      },
+      "Tr": {
+        "Id": "C16",
+        "Pid": "G12",
+        "Name": "SimpleFind-DOSFile"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "005356a6-039a-4ef6-b808-9e6d404588ca/22ec3c55-a4ca-42a3-8541-e484acde20b8",
+        "Pid": "005356a6-039a-4ef6-b808-9e6d404588ca/288e38c4-1a0f-45e7-8f11-f00eaff7b476",
+        "Name": "PerlRegularExpressionFind-DOSFile"
+      },
+      "Tr": {
+        "Id": "C17",
+        "Pid": "G12",
+        "Name": "PerlRegularExpressionFind-DOSFile"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "005356a6-039a-4ef6-b808-9e6d404588ca/bd4066ca-eb6c-417a-b7cc-997f1d578529",
+        "Pid": "005356a6-039a-4ef6-b808-9e6d404588ca/288e38c4-1a0f-45e7-8f11-f00eaff7b476",
+        "Name": "UnixRegularExpressionFind-DOSFile"
+      },
+      "Tr": {
+        "Id": "C18",
+        "Pid": "G12",
+        "Name": "UnixRegularExpressionFind-DOSFile"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "005356a6-039a-4ef6-b808-9e6d404588ca/308cdb95-6679-42f1-bfdd-6de6c73137ae",
+        "Pid": "005356a6-039a-4ef6-b808-9e6d404588ca/288e38c4-1a0f-45e7-8f11-f00eaff7b476",
+        "Name": "UltraEditRegularExpressionFind-DOSFile"
+      },
+      "Tr": {
+        "Id": "C19",
+        "Pid": "G12",
+        "Name": "UltraEditRegularExpressionFind-DOSFile"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "005356a6-039a-4ef6-b808-9e6d404588ca/fdbaba0e-4322-4e76-9de0-269948bb7828",
+        "Pid": "005356a6-039a-4ef6-b808-9e6d404588ca/288e38c4-1a0f-45e7-8f11-f00eaff7b476",
+        "Name": "CountAllWithRegularExpressions"
+      },
+      "Tr": {
+        "Id": "C20",
+        "Pid": "G12",
+        "Name": "CountAllWithRegularExpressions"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "005356a6-039a-4ef6-b808-9e6d404588ca/cf7521c5-dc40-41a9-b49d-8639f2ef68f4",
+        "Pid": "005356a6-039a-4ef6-b808-9e6d404588ca/288e38c4-1a0f-45e7-8f11-f00eaff7b476",
+        "Name": "ClearHistory(clearsFind/ReplaceHistory)"
+      },
+      "Tr": {
+        "Id": "C21",
+        "Pid": "G12",
+        "Name": "ClearHistory(clearsFind/ReplaceHistory)"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "005356a6-039a-4ef6-b808-9e6d404588ca/fe2e3b64-3575-4731-94b6-779dcee4d14f",
+        "Pid": "005356a6-039a-4ef6-b808-9e6d404588ca/fc7792ae-101b-4f77-9dc7-8234dd45fd6d",
+        "Name": "FindASCIIMatchCase"
+      },
+      "Tr": {
+        "Id": "C22",
+        "Pid": "G13",
+        "Name": "FindASCIIMatchCase"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "005356a6-039a-4ef6-b808-9e6d404588ca/ef3eea33-5d17-4546-9a80-cd94fa24f85c",
+        "Pid": "005356a6-039a-4ef6-b808-9e6d404588ca/fc7792ae-101b-4f77-9dc7-8234dd45fd6d",
+        "Name": "Find/ReplaceRegularExpressionBulider"
+      },
+      "Tr": {
+        "Id": "C23",
+        "Pid": "G13",
+        "Name": "Find/ReplaceRegularExpressionBulider"
+      }
+    }
+  ]
+}

@@ -47,7 +47,7 @@ namespace UltraEditAutomation
 	        }
 	        catch (Exception ex)
 	        {
-	            Report.Error($"Failed to clear text field: {ex.Message}");
+	            Report.Error("Failed to clear text field: {ex.Message}");
 	        }
         }
 

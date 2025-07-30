@@ -66,7 +66,7 @@ namespace UltraEditAutomation
             }
             catch (RanorexException ex)
             {
-                Report.Error($"Error accessing the text: {ex.Message}");
+                Report.Error("Error accessing the text: {ex.Message}");
             }
         }
         

@@ -89,7 +89,7 @@ namespace UltraEditAutomation
                     Delay.Milliseconds(100);
                 }
 
-                Report.Info($"Moved to line {lineNum}.");
+                Report.Info("Moved to line {lineNum}.");
 
                 // Get the text content from the editor
                 string windowText = editorElement.Element.GetAttributeValueText("WindowText");
@@ -100,13 +100,13 @@ namespace UltraEditAutomation
                     if (lines.Length >= lineNum)
                     {
                         string currentLine = lines[lineNum - 1];  // Adjust for zero-based index
-                        Report.Info($"Current Line Text: '{currentLine}'");
+                        Report.Info("Current Line Text: '{currentLine}'");
 
                         string pattern = @"[\w]+|[^\w\s]";  // Regex pattern to match words and special characters
                         var matches = Regex.Matches(currentLine, pattern);
                         totalNum = matches.Count;
 
-                        Report.Info($"Total words in line {lineNum}: {totalNum}");
+                        Report.Info("Total words in line {lineNum}: {totalNum}");
 
                         for (int i = 0; i < totalNum; i++)
                         {
@@ -120,11 +120,11 @@ namespace UltraEditAutomation
                         {
                             Keyboard.PrepareFocus(editorElement);
                             Keyboard.Press(System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift | System.Windows.Forms.Keys.Right, Keyboard.DefaultScanCode, Keyboard.DefaultKeyPressTime, 1, true);
-                            Report.Info($"Completed selection for line {lineNum} and moved to the next line.");
+                            Report.Info("Completed selection for line {lineNum} and moved to the next line.");
                         }
                         else
                         {
-                            Report.Info($"Completed selection for the final line {lineNum}. No further movement.");
+                            Report.Info("Completed selection for the final line {lineNum}. No further movement.");
                         }
 
                         lineNum++;
@@ -136,7 +136,7 @@ namespace UltraEditAutomation
                     }
                 }
 
-                Report.Info($"Completed selection up to line {lastLine}.");
+                Report.Info("Completed selection up to line {lastLine}.");
             }
             catch (RanorexException ex)
             {

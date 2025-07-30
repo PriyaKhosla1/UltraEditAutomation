@@ -56,7 +56,7 @@ namespace UltraEditAutomation
 			catch (Exception ex)
 			{
 			   		 // Log any unexpected errors but continue execution
-			         Report.Error($"An error occurred while attempting to click the button: {ex.Message}");
+			         Report.Error("An error occurred while attempting to click the button: {ex.Message}");
 			 }
         }
 

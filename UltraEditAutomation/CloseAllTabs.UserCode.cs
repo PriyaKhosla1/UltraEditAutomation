@@ -37,7 +37,7 @@ namespace UltraEditAutomation
 
                         
                         int tabPagesCount = tabPages.Count;
-                        Report.Info($"Number of open tabs: {tabPagesCount}");
+                        Report.Info("Number of open tabs: {tabPagesCount}");
 
                         if (tabPagesCount == 0)
                         {
@@ -56,7 +56,7 @@ namespace UltraEditAutomation
                     {
                         try
                         {
-                            Report.Info("Tab Page", $"Processing tab: {tabPage}");
+                            Report.Info("Tab Page", "Processing tab: {tabPage}");
 
                            
                             tabPage.MoveTo();
@@ -92,13 +92,13 @@ namespace UltraEditAutomation
                         }
                         catch (Exception tabEx)
                         {
-                            Report.Error($"An error occurred while processing the tab: {tabEx.Message}");
+                            Report.Error("An error occurred while processing the tab: {tabEx.Message}");
                         }
                     }
                 }
                 catch (Exception loopEx)
                 {
-                    Report.Error($"An error occurred in the main loop: {loopEx.Message}");
+                    Report.Error("An error occurred in the main loop: {loopEx.Message}");
                     break;
                 }
             }

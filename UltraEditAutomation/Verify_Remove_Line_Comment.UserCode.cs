@@ -77,18 +77,18 @@ namespace UltraEditAutomation
                     // Check if the line is not commented
                     if (!lineToCheck.StartsWith("//"))
                     {
-                        Report.Success($"Line {lineNumberToCheck} is not commented: '{lineToCheck}'");
+                        Report.Success("Line {lineNumberToCheck} is not commented: '{lineToCheck}'");
                     }
                     else
                     {
-                        Report.Error($"Line {lineNumberToCheck} is commented: '{lineToCheck}'");
-                        throw new Exception($"Test case failed: Line {lineNumberToCheck} is commented.");
+                        Report.Error("Line {lineNumberToCheck} is commented: '{lineToCheck}'");
+                        throw new Exception("Test case failed: Line {lineNumberToCheck} is commented.");
                     }
                 }
                 else
                 {
-                    Report.Warn($"The editor does not contain {lineNumberToCheck} lines.");
-                    throw new Exception($"Test case failed: The editor does not contain {lineNumberToCheck} lines.");
+                    Report.Warn("The editor does not contain {lineNumberToCheck} lines.");
+                    throw new Exception("Test case failed: The editor does not contain {lineNumberToCheck} lines.");
                 }
             }
             catch (RanorexException ex)
