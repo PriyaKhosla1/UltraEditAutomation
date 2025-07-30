@@ -740,6 +740,7 @@
 			name="teardown">
 			</teardown>
 			<testmodule
+			enabled="False"
 			id="6ee12d15-8b50-4d27-81fe-6d500b37fe7e"
 			name="CloseAUT"
 			ref="1bf7a2c8-a5e7-4a64-91f7-f31777f468e7"
