@@ -21,4 +21,6 @@ D:\Test\UltraEditAutomation\bin\Debug\UltraEditAutomation.pdb
 D:\Test\UltraEditAutomation\bin\Debug\Ranorex.Core.Resolver.dll
 D:\Test\UltraEditAutomation\obj\x86\Debug\UltraEditAutomation.exe
 D:\Test\UltraEditAutomation\obj\x86\Debug\UltraEditAutomation.pdb
-D:\Test\UltraEditAutomation\obj\x86\Debug\UltraEditAutomation.csprojResolveAssemblyReference.cache
+D:\Test\UltraEditAutomation\obj\x86\Debug\UltraEditAutomation.csproj.AssemblyReference.cache
+D:\Test\UltraEditAutomation\obj\x86\Debug\UltraEditAutomation.csproj.CoreCompileInputs.cache
+D:\Test\UltraEditAutomation\obj\x86\Debug\UltraEditAutomation.csproj.CopyComplete

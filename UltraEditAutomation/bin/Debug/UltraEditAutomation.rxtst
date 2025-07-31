@@ -740,6 +740,7 @@
 			name="teardown">
 			</teardown>
 			<testmodule
+			enabled="False"
 			id="6ee12d15-8b50-4d27-81fe-6d500b37fe7e"
 			name="CloseAUT"
 			ref="1bf7a2c8-a5e7-4a64-91f7-f31777f468e7"
@@ -794,6 +795,7 @@
 			type="UserCode">
 			</testmodule>
 			<testmodule
+			enabled="False"
 			id="751ddbe2-c47c-420c-8983-d747d0326b55"
 			name="RestoreDefaultSettings"
 			ref="2f917574-72a0-4ade-a96e-bd153c793ab2"
@@ -1571,6 +1573,7 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			enabled="False"
 			id="d69d70f2-d284-4638-b4ee-19d6512335f7"
 			name="CloseAUT"
 			ref="1bf7a2c8-a5e7-4a64-91f7-f31777f468e7"
@@ -1758,6 +1761,7 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			enabled="False"
 			id="ef36cfeb-b03a-4a65-bfde-f57ee2ffb023"
 			name="StartAUT"
 			ref="e2650338-2dbb-41bb-a3a6-4798caf81207"
