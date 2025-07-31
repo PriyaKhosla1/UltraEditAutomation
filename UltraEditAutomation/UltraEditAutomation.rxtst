@@ -128,6 +128,7 @@
 			name="setup">
 			</setup>
 			<testmodule
+			enabled="False"
 			id="0836ed01-f132-4f63-a9bc-f0475014348b"
 			name="StartAUT"
 			ref="e2650338-2dbb-41bb-a3a6-4798caf81207"
@@ -1362,6 +1363,7 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			enabled="False"
 			id="c7c8d351-a60b-4000-9908-85a1e02be952"
 			name="RestoreDefaultSettings"
 			ref="2f917574-72a0-4ade-a96e-bd153c793ab2"
@@ -1459,20 +1461,6 @@
 			id="ce4ee454-e4b3-4e85-8b0f-8707d6c05c2f"
 			name="teardown">
 			</teardown>
-			<testmodule
-			id="ce614693-5cf7-440b-8be9-1b67caa2d94f"
-			name="StartAUT"
-			ref="e2650338-2dbb-41bb-a3a6-4798caf81207"
-			type="Recording">
-				<databinding>
-					<var
-					dataname="AppProcessID"
-					datasourceid="6fdd8673-017f-4293-8641-eb9f3ba7c872"
-					variableid="5b108ef1-3be1-46e2-b31a-f7f428090a88"
-					variablename="StartAutProcessIDVar">
-					</var>
-				</databinding>
-			</testmodule>
 			<testcase
 			id="cf7521c5-dc40-41a9-b49d-8639f2ef68f4"
 			name="ClearHistory(clearsFind/ReplaceHistory)">
@@ -2092,10 +2080,6 @@
 									<testmodule
 									id="0fbf788b-cae5-409b-9acf-956565187161"
 									name="CloseAllTabs">
-									</testmodule>
-									<testmodule
-									id="ce614693-5cf7-440b-8be9-1b67caa2d94f"
-									name="StartAUT">
 									</testmodule>
 								</testcase>
 								<teardown
